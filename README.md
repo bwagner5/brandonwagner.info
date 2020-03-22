@@ -3,7 +3,7 @@
 
 ![Upload Website](https://github.com/bwagner5/brandonwagner.info/workflows/Upload%20Website/badge.svg)
 
-This is my personal website.
+This is my personal website: https://brandonwagner.info
 
 
 ---
