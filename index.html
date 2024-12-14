@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Simple Blog</title>
+  <title>Brandon Wagner</title>
   <link rel="stylesheet" href="styles.css">
   <script src="https://unpkg.com/showdown/dist/showdown.min.js"></script>
   <script src="scripts/app.js" defer></script>
@@ -11,18 +11,54 @@
 <body>
   <div class="container">
     <header>
-      <h1>My Blog</h1>
+      <h1>Brandon Wagner</h1>
       <nav>
-        <a href="#" onclick="loadMarkdown('post1.md')">Post 1</a>
-        <a href="#" onclick="loadMarkdown('post2.md')">Post 2</a>
+        <a href="#" onclick="loadMarkdown('workouts.md')">Workouts</a>
       </nav>
     </header>
     <main>
-      <div id="content">Select a post to view the content!</div>
+      <div id="content">
+        👋 Hello! I'm a Software Engineer and this is where I post about random things related to software or anything else I care about. 
+        <br /><br />
+        Some things I'm interested in:
+        <li>Cloud ☁️</li>
+        <li>Kubernetes</li>
+        <li>Karpenter</li>
+        <li>Go</li>
+        <li>Lifting Heavy Things</li>
+
+        <br />
+
+        I write code on Github here: <a href="https://github.com/bwagner5">https://github.com/bwagner5</a>
+        <br />
+        I work on Karpenter, a K8s node autoscaler. <a href="https://www.youtube.com/watch?v=UBb8wbfSc34">Here's</a> a talk I did on Karpenter at KubeCon 2022 in Valencia with Nick Tran. 
+        <br />
+        I currently work at AWS on the Route 53 team. I have previously worked on EC2, EKS, and AWS Marketplace at AWS. 
+        <br /><br /> 
+        Before AWS... 
+        <li>
+            2016-2017: Consumer video startup that never quite launched... 
+        </li>
+        <li>
+            2015-2016: AOL in the Security department
+        </li>
+        <li>
+            2013-2016: Triple Tech working on nuclear power plant fire protection software
+        </li>
+
+        <br /><br />
+
+        I went to George Mason University for both undergrad and grad school. I have a bachelor's in Computer Science and a Master's in Computer Science with an emphasis on Security.
+
+    </div>
     </main>
     <footer>
-      <p>&copy; 2024 My Blog</p>
-    </footer>
+        <p>&copy; <span id="year"></span> Brandon Wagner</p>
+      </footer>
   </div>
+  <script>
+    // Set the current year for the copyright notice
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
 </body>
 </html>
