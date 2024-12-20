@@ -32,3 +32,26 @@
 - Push Up Machine
 - Bicep Curl Machine
 - Rope
+
+
+## Lower Body 1
+
+3 sets of 8-12 reps for each
+
+- Lunges
+- Squats
+- Ab Crunches (machine)
+- Hamstring Curls
+- Farmer's Carry (heavy)
+- Weighted Calf Raises
+
+## Lower Body 2
+
+3 sets of 8-12 reps for each
+
+- Sumo Squats
+- Deadlift
+- Plank
+- Weighted Glute Bridge
+- Sled Push
+- Crunches
